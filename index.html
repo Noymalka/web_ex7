@@ -11,7 +11,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      background-color: lightcyan; 
+      background-color: lightyellow; 
     }
 
     .image-container {
@@ -37,6 +37,7 @@
       width: 100%;
       overflow-x: auto;
       border-radius: 8px;
+      border: 2px solid bisque; /* Add border */
     }
 
     .smallimg {
@@ -68,13 +69,16 @@
     }
 
     .arrows {
-      display: flex;
-      justify-content: space-between;
-      width: 100%; 
-      top: 50%; 
-      transform: translateY(-50%); 
-      
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    top: 0; 
+    transform: translateY(-50%);
+    margin: 300px; 
     }
+      
+    
 
     .arrow {
       font-size: 24px;
